@@ -1,0 +1,20 @@
+{
+    "name": "paychainplaza",
+    "version": "1.0.0",
+    "description": "Decentralized E-commerce Platform powered by Solana",
+    "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "client": "cd public && npm start"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^latest",
+      "@solana/web3.js": "^latest",
+      "react": "^latest",
+      "react-dom": "^latest",
+      "react-router-dom": "^latest"
+    }
+  }
+  
